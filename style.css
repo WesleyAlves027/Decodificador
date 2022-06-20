@@ -1,0 +1,166 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #F3F5FC;
+    height: 700px;
+}
+#principal{
+    display: inline-block;
+    width: 50%;
+    margin: 10px 35px;
+}
+.conteudo{
+    height: 390px;
+}
+.logo{
+    top: 10px;
+    width: 50px;
+    vertical-align: top;
+}
+.recebeTexto{
+    padding: 0px 0px 50px 0px;
+    margin-top: 26px;
+    margin-left: 25px;
+    border: none;
+
+    font-size: 20px;
+
+    background:  #F3F5FC;
+    color:#0A3871;
+}
+
+.informação{
+    vertical-align: top;
+    color: #495057;
+    
+    margin-top: 15px;
+    margin-left: 50px;
+    
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+.evento{
+    margin: 10px 50px;
+}
+.evento button{
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px 0 #4040ff;
+    transition: border-radius 100ms;
+}
+.evento button:active{
+    border-radius: 100px 0;
+    box-shadow: 0px 5px 10px 0 #000000;
+}
+.evento button:hover{
+    transform: scale(1.05);
+    transition: transform 200ms;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.button-codificar{
+    background-color:  #0A3871;
+    color: white;
+}
+.button-descodificar{
+    background-color:#8f98ec;
+    color:#0A3871;
+}
+#secundario{
+    background: #FFFFFF;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 50px;
+    height: 450px;
+    margin-top: 10px;
+    border-radius: 32px;
+    box-shadow: 0px 10px 32px -8px
+}
+.imagem-nop{
+    position:relative;
+    margin: 20px 0px  0px 2px;
+    width: 260px;
+}
+.imagem-encontrado{
+    display: none;
+    margin: 50px 0px  0px 2px;
+    width: 260px;
+}
+.imagem-decodificado{
+    display: none;
+    margin: 50px 0px  0px 2px;
+    width: 260px;
+}
+.input-resposta{
+    text-align: center;
+    border:none;
+    margin: 0px 4px;
+    background: #FFFFFF;
+    width: 258px;
+    height: 70px;
+}
+.button-copiar{
+    display: none;
+    margin: 5px auto;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0px 5px 10px 0 #000000;
+    background-color: #8f98ec;
+    color:#0A3871;
+    cursor:pointer;
+    transition: border-radius 200ms;
+}
+.button-copiar:hover{
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
+.button-copiar:active{
+    text-decoration: underline;
+    box-shadow: 0px 5px 10px 0 #4040ff;
+    border-radius: 100px 0;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+.linkedin-imagem, .gitHub-imagem{
+    width: 25px;
+}
+.link-linkedin{
+    position: absolute;
+    margin: 0 0 0 820px;
+    padding-top: 160px;
+}
+.link-gitHub{
+    position: absolute;
+    margin: 0 0 0 930px;
+    padding-top: 160px;
+}
+a {
+    vertical-align:super;
+    padding:0px 0 0px 5px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.imagem-rodape{
+    height: 200px;
+    width: 100%;
+}
+.copyright{
+    width: 960px;
+    position: absolute;
+    font-size: 12px;
+    padding-top: 180px;
+}
