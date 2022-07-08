@@ -1,11 +1,6 @@
-@media screen and (min-width:0px){
-    
-}
-
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     body{
-        background: pink;
-        height: 100vh;
+        background: #ffffff;
     }
     .logo{
         width: 30px;
@@ -18,39 +13,56 @@
     }
     #principal{
         width: 80%;
-        margin: 0;
+        margin: 20px auto 0 auto;
     }
    .recebeTexto{
         width: 80%;
         height: 250px;
-        margin: 20px auto 0 auto;
     }
     .informação{
         margin-top: 5px;
+    }
+    .evento{
+        justify-content: center;
     }
     #button-codificar{
         width: 150px;
     }
     #button-descodificar{
         width: 150px;
-
     }
     #secundario{
-        width: 80%;
-        margin: 20px auto 0 auto;
+        width: 240px;
+        margin: 80px auto 0 auto;
     }
-    .resultado, #imagem-nop, #imagem-encontrado, #imagem-decodificado{
-        width: 80%;
+    .imagens-resultado{
+        width: 188px;
+    }
+    #imagem-nop{
+        height: 100%;
     }
     #input-resposta{
         width: 80%;
         font-size:20px;
     }
 }
-@media screen and (min-width:992px) {
-  
-}
-@media screen and (min-width:1200px) {
-   
+
+@media screen and (min-width:768px) {
+    .container{
+        margin: 20px 5% 0 5%;
+        justify-content: center;
+        justify-content: space-around;
+        height: 450px;
+    }
+    .recebeTexto{
+        width: 300px;
+    }
+    .imagens-resultado{
+        width: 250px;
+        border-radius: 50%;
+    }
+    #imagem-nop{
+        margin-top: 60px;
+    }
 }
 
