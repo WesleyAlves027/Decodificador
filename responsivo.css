@@ -1,0 +1,56 @@
+@media screen and (min-width:0px){
+    
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background: pink;
+        height: 100vh;
+    }
+    .logo{
+        width: 30px;
+        margin: 10px 0 0 15px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #principal{
+        width: 80%;
+        margin: 0;
+    }
+   .recebeTexto{
+        width: 80%;
+        height: 250px;
+        margin: 20px auto 0 auto;
+    }
+    .informação{
+        margin-top: 5px;
+    }
+    #button-codificar{
+        width: 150px;
+    }
+    #button-descodificar{
+        width: 150px;
+
+    }
+    #secundario{
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+    .resultado, #imagem-nop, #imagem-encontrado, #imagem-decodificado{
+        width: 80%;
+    }
+    #input-resposta{
+        width: 80%;
+        font-size:20px;
+    }
+}
+@media screen and (min-width:992px) {
+  
+}
+@media screen and (min-width:1200px) {
+   
+}
+
